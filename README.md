@@ -1,4 +1,4 @@
-# Slagräknare – Connect IQ-app för Garmin fēnix 6S
+# Slagräknare – Connect IQ-app för Garmin fēnix 6, epix 2 och Forerunner 245
 
 Räknar boxningsslag med klockans accelerometer, försöker skilja på **raka slag, krokar och uppercuts** och sparar passet som en vanlig aktivitet i Garmin Connect (med puls, tid, ronder och slagfält).
 
@@ -29,6 +29,10 @@ Räknar boxningsslag med klockans accelerometer, försöker skilja på **raka sl
 2. Kör `Monkey C: Generate a Developer Key` i VS Code (en gång).
 3. Öppna mappen `punchcount` och kör `Monkey C: Build for Device` → välj `fenix6s` (eller `fenix6spro` om du har Pro/Solar/Sapphire). Du får `punchcount.prg`.
 4. Koppla klockan med USB och kopiera `punchcount.prg` till `GARMIN/APPS/`. Koppla ur, så dyker **Slagräknare** upp bland apparna.
+
+**Andra klockor:** byt `-d`/enhet vid bygget. Stödda: `fenix6s`, `fenix6spro`, `fenix6`, `fenix6pro`, `fenix6xpro`, `epix2`, `fr245`, `fr245m`. Varje enhet måste vara nedladdad i SDK Manager. En .prg byggs för en specifik modell. Vill du ha en fil för alla, använd `Monkey C: Export Project` (ger .iq för Connect IQ Store).
+
+På epix 2 ignoreras tryck på pekskärmen under pass och kalibrering, så att träffar mot skärmen inte pausar passet. Kalibrera varje klocka för sig, eftersom sensorer och passform skiljer sig.
 
 > Simulatorn (`Monkey C: Run`) duger för att testa menyer och knappar, men slagdetekteringen måste testas på riktiga klockan.
 

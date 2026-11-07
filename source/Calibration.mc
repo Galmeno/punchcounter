@@ -176,6 +176,11 @@ class CalibDelegate extends WatchUi.BehaviorDelegate {
         _s = session;
     }
 
+    // Pekskärm (epix 2): ignorera tryck så att slag mot skärmen inte pausar.
+    function onTap(evt) {
+        return true;
+    }
+
     function onSelect() {
         if (_s.phase == 1) {
             _s.finish();

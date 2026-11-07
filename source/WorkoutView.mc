@@ -103,6 +103,11 @@ class WorkoutDelegate extends WatchUi.BehaviorDelegate {
         _w = workout;
     }
 
+    // Pekskärm (epix 2): ignorera tryck så att slag mot skärmen inte pausar.
+    function onTap(evt) {
+        return true;
+    }
+
     function onSelect() {
         if (_w.state == WS.IDLE) {
             _w.start();
