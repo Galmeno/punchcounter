@@ -1,0 +1,6 @@
+bin/
+developer_key
+*.der
+*.pem
+.vscode/
+*.prg

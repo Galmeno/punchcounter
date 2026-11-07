@@ -1,0 +1,11 @@
+<strings>
+    <string id="AppName">Slagräknare</string>
+    <string id="fTotal">Slag totalt</string>
+    <string id="fStraight">Raka slag</string>
+    <string id="fHook">Krokar</string>
+    <string id="fUpper">Uppercuts</string>
+    <string id="fLap">Slag i ronden</string>
+    <string id="fRate">Slagtakt</string>
+    <string id="uPunches">slag</string>
+    <string id="uRate">slag/min</string>
+</strings>

@@ -1,0 +1,8 @@
+<fitContributions>
+    <fitField id="0" displayInChart="false" displayInActivitySummary="true" sortOrder="0" precision="0" dataLabel="@Strings.fTotal" unitLabel="@Strings.uPunches" />
+    <fitField id="1" displayInChart="false" displayInActivitySummary="true" sortOrder="1" precision="0" dataLabel="@Strings.fStraight" unitLabel="@Strings.uPunches" />
+    <fitField id="2" displayInChart="false" displayInActivitySummary="true" sortOrder="2" precision="0" dataLabel="@Strings.fHook" unitLabel="@Strings.uPunches" />
+    <fitField id="3" displayInChart="false" displayInActivitySummary="true" sortOrder="3" precision="0" dataLabel="@Strings.fUpper" unitLabel="@Strings.uPunches" />
+    <fitField id="4" displayInChart="false" displayInActivityLaps="true" sortOrder="4" precision="0" dataLabel="@Strings.fLap" unitLabel="@Strings.uPunches" />
+    <fitField id="5" displayInChart="true" sortOrder="5" precision="0" chartTitle="@Strings.fRate" dataLabel="@Strings.fRate" unitLabel="@Strings.uRate" fillColor="#E03030" />
+</fitContributions>
